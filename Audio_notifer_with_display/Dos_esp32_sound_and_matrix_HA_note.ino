@@ -189,7 +189,7 @@ ______    _____   _____     ___    ___      __      __
 #include <TM1640.h>
 #include <TM16xxMatrixGFX.h>
 TM1640 module(21,19) ;
-// TM1640 module(21,22) ; to avoide confilect with GOIP 22
+// TM1640 module(21,22) ; to avoide conflict with GPIO 22
 //TM1640 module(5,18);
 #define MATRIX_NUMCOLUMNS 16
 #define MATRIX_NUMROWS 8
